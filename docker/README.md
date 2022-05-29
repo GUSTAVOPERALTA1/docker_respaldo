@@ -2,6 +2,10 @@
 ```bash
 apt install -y python3-pip
 ```
+# docker create image
+```bash
+docker build -t mi_imagen:v1 .
+```
 
 # docker save
 ```bash

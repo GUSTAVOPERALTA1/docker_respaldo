@@ -10,8 +10,8 @@ body {
     background: hsl(60, 100%, 99%);
 }
 .titulo {
-    text-align: center;
-    font: size 30px;;
+    text-align: right;
+    font: size 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .wrapper {
@@ -37,7 +37,7 @@ header .logo {
 }
 header nav {
     float:right;
-    line-height:200px;
+    line-height:30px;
 }
 header nav a {
     display: inline-block;
@@ -47,9 +47,9 @@ header nav a {
     line-height:normal;
     font-size:20px;
     font-weight:bold;
-    -webkit-transition:all 500ms ease;
-    -o-transition:all 500ms ease;
-    transition:all 500ms ease;
+    -webkit-transition:all 50ms ease;
+    -o-transition:all 50ms ease;
+    transition:all 50ms ease;
 }
 header nav a:hover {
     background:#f56f3a;
@@ -60,11 +60,11 @@ header nav a:hover {
     height:100px;
 }
 .header2 .logo{
-    line-height:100px;
+    line-height:50px;
     font-size:30px;
 }
 .header2 nav{
-    line-height:100px;
+    line-height:50px;
 }
 .contenido p{
     margin-bottom:1em;
